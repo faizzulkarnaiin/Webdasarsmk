@@ -1,0 +1,81 @@
+*, html, body{
+margin: 0;
+padding: 0;
+font-family: "Roboto", sans-serif;
+}
+
+
+.fContainer{
+/*justify-content: center;
+align-items: center;*/
+display: flex ;
+width: 100%;
+height:100vh;
+background-color: lightslategray;
+}
+.wrapper{
+    align-items: center;
+justify-content: space-between;
+display: flex;
+font-size: 20px;
+padding: 15px;
+width: 100%;
+height: 80px;
+background-color:pink;
+box-shadow:0 7px 15px rgba(0,0 , 0, 0.5) ;
+
+}
+
+.brand{
+display:flex;
+flex-direction: row;
+font-size: 1.5em;
+padding: 15px;
+text-transform: capitalize;
+}
+
+
+.firstname{
+color:whitesmoke;
+font-weight: 700;
+}
+
+.lastname{
+color:tomato;
+padding-left: 4px;
+font-weight: 400;
+}
+
+.navigation{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.navigation>li {
+list-style-type: none;
+padding: 15px;
+}
+
+.navigation>li>a{
+color:white;
+font-size: 20px;
+text-decoration: none;
+text-transform: capitalize;
+}
+.navigation>li>a:hover {
+color:purple;
+transition: all 1s ease-in-out
+}
+.active{
+background-color:palevioletred;
+color:white;
+padding: 15px;
+}
+
+.active:hover {
+color: white !important ;
+
+}
+
+
